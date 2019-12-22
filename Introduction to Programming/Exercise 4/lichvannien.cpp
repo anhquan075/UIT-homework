@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-#define maxyear 9999;
-#define minyear 1900;
+
 
 
 bool checkYear(int nam) 
@@ -53,7 +52,7 @@ void thucuangaybatky(int ngay,int thang, int nam)
 	{ 
     	thang += 12;
     	nam--;
-    } 
+   	} 
 
     cout<<"Ngay hom do la ";
 	switch (zeller(ngay,thang,nam)) 
