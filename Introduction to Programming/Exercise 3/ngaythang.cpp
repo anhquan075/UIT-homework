@@ -213,6 +213,8 @@ NGAY TimNgayHomQua(NGAY a)
 // Tìm ngày kế đó k ngày
 NGAY TimNgayKeDoKNgay(NGAY a, int k)
 {
+	cout<<"\nNhap k ngay ke tiep:\n";
+	cin>>k;
 	while(k > 0)
 	{
 		a = TimNgayKeTiep(a);
@@ -223,6 +225,8 @@ NGAY TimNgayKeDoKNgay(NGAY a, int k)
 // Tìm ngày hôm trước k ngày
 NGAY TimNgayTruocDoKNgay(NGAY a, int k)
 {
+	cout<<"\nNhap k ngay truoc do:\n";
+	cin>>k;
 	while(k>0)
     {
         a = TimNgayHomQua(a);
@@ -280,10 +284,10 @@ int main()
 	cout<<"\nNgay thu "<<STTNgay<<" trong nam";
 	int STT = TinhSoThuTuNgayTuNgayChoTruoc(a);
 	cout<<"\nNgay thu "<<STT<<" trong nam tu ngay 1/1/1";
-	cout<<"\nNgay ke tiep 100 ngay: ";
-	XuatNgay(TimNgayKeDoKNgay(a, 100));
-    cout<<"\nNgay hom truoc 100 ngay: ";
-	XuatNgay(TimNgayTruocDoKNgay(a, 100));
+	cout<<"\nNgay ke tiep k ngay: ";
+	XuatNgay(TimNgayKeDoKNgay(a, k));
+    cout<<"\nNgay hom truoc k ngay: ";
+	XuatNgay(TimNgayTruocDoKNgay(a, k));
 
 
 	cout<<"\nNhap du lieu hai ngay de so sanh"<<endl;
