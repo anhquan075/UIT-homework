@@ -22,6 +22,8 @@ void xuatdonthuc(DONTHUC &dt)
 {
 	cout<<"He so la:"<<dt.heso<<endl;
 	cout<<"So mu la:"<<dt.somu<<endl;
+	if(dt.heso == 1 && de.somu == 0)
+		cout<<"Don thuc la 1"<<endl;
 }
 
 
