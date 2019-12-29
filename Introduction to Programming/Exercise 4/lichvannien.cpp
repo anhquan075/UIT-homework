@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 bool checkYear(int nam) 
 { 
 	return (((nam % 4 == 0) && (nam % 100 != 0)) || (nam % 400 == 0)); 
@@ -82,7 +80,7 @@ void lichcuathang(int thang,int nam)
 	cout<<"Lich cua thang "<<thang<<" nam "<<nam<<" la:\n\n";
 	cout<<"Sun  Mon  Tue  Wed  Thu  Fri  Sat\n";
 	int ngaytrongthang = tinhsongaycua1thang(thang,nam); 
-	int current = zeller(1, 1, nam);
+	int current = zeller(1, thang, nam);
 	int k;
 	for(k = 0 ; k < current; k++)
 	{
