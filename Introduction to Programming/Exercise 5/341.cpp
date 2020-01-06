@@ -33,8 +33,9 @@ int countposnuminbor(int arr[][100],int n,int m)
 	{
 		for(int j = 0;j < m;j++)
 		 {
-		 	if(i == 0 || i == n-1 || j == 0 || j == m-1 && arr[i][j] > 0)
-		 		count++;
+		 	if(i == 0 || i == n-1 || j == 0 || j == m-1)
+		 		if(arr[i][j] > 0 )
+		 			count++;
 		 }
 	}
 	return count;
