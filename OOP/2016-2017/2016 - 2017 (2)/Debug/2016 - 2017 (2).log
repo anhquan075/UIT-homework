@@ -1,0 +1,11 @@
+﻿  BaiTho.cpp
+C:\Users\nguye\source\repos\2016-2017\2016 - 2017 (2)\BaiTho.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+  DuongLuat.cpp
+  LucBat.cpp
+  SongThat.cpp
+  TapTho.cpp
+C:\Users\nguye\source\repos\2016-2017\2016 - 2017 (2)\TapTho.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguye\source\repos\2016-2017\2016 - 2017 (2)\TapTho.cpp(60,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  2016 - 2017 (2).vcxproj -> C:\Users\nguye\source\repos\2016-2017\Debug\2016 - 2017 (2).exe
