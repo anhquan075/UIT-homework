@@ -1,7 +1,0 @@
-﻿  DauLang.cpp
-  KyHieu.cpp
-  NotNhac.cpp
-  main.cpp
-C:\Users\nguye\source\repos\2015 - 2016\2015 - 2016\main.cpp(49,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
-  2015 - 2016.vcxproj -> C:\Users\nguye\source\repos\2015 - 2016\Debug\2015 - 2016.exe
